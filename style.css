@@ -24,18 +24,38 @@ body{
 .title-div h1{
   font-weight: 400;
 }
-.name-div, .college-div, .gmail-div, .mobile-div{
+.name-div, .college-div, .gmail-div, .mobile-div, .whatsapp-div, .dob-div{
   height: 150px;
   width: 650px;
   background-color: #FDFEFE;
   margin: 15px;
   border-radius: 8px;
 }
+.education-div{
+  height: 350px;
+  width: 650px;
+  background-color: #FDFEFE;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.department-div{
+  height: 750px;
+  width: 650px;
+  background-color: #FDFEFE;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.checkbox-group{
+  margin: 0 0 25px 20px;
+}
+
 .name{
   padding-top: 20px;
   padding-left: 25px;
   padding-bottom: 25px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .input-div{
   padding-top: 25px;
@@ -65,19 +85,23 @@ body{
 .last-div h2{
   text-align: center;
   padding-top: 50px;
-  color: #a2a4a6;
-  font-weight: 200;
+  color: #6d6772;
 }
 .term{
   font-size: 12px;
   padding-left: 65px;
   padding-top: 5px;
   position: absolute;
+  color: #000000a8;
 }
 .never{
   padding-left: 15px;
   font-size: 12px;
   padding-top: 70px;
   font-weight: 400;
+  color: #000000a8;
 
+}
+.g_forms{
+  font-weight: 200;
 }
